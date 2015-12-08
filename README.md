@@ -18,11 +18,11 @@ You can find the main page at spa-badge.html. Click the Sample Page link to see 
 Rules
 - Has to be a JavaScript app that utilizes your miniQuery library
 - Uses MVC architecture. See TodoMVC for inspiration: https://github.com/tastejs/todomvc/tree/gh-pages/examples/vanillajs
-- Only XHR requests to the server are allowed except for the initial app load
-- jQuery is banned; any features you want from jQuery must be implemented in your miniQuery
-- Frameworks such as Angular are banned
-- All page navigation must be done through JS routing (see Considerations section)
-- Data should be persisted on a Rails API backend. Your Rails app should not serve / have any erb or haml files
+- Only XHR / ajax requests to the server are allowed except for the initial app load
+- Use vanilla javascript rather than jQuery - you can use your miniQuery to help
+- Don't use frameworks such as Angular
+- All page navigation must be done through client-side JS routing (see Considerations section)
+- Data should be persisted on a Rails API backend. Your Rails app should not serve / have any erb or haml files. You should design an appropriate API.
 - All DOM manipulation should take place on the client
 
 Considerations
